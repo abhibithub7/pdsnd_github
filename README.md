@@ -24,11 +24,30 @@ that answers questions about the dataset. The experience is interactive because 
 on a user's input, the answers to the questions will change! There are four questions that 
 will change the answers:
 
-Would you like to see data for Chicago, New York, or Washington?
-Would you like to filter the data by month, day, or not at all?
-(If they chose month) Which month - January, February, March, April, May, or June?
-(If they chose day) Which day - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday?
-The answers to the questions above will determine the city and timeframe on which you'll do data analysis. After filtering the dataset, users will see the statistical result of the data, and choose to start again or exit.
+-Would you like to see data for Chicago, New York, or Washington?
+-Would you like to filter the data by month, day, or not at all?
+-(If they chose month) Which month - January, February, March, April, May, or June?
+-(If they chose day) Which day - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday?
+
+The answers to the questions above will determine the city and timeframe on which you'll do data 
+analysis. After filtering the dataset, users will see the statistical result of the data, and 
+choose to start again or exit.
+
+
+Randomly selected data for the first six months of 2017 are provided for all three cities. All three of the data files contain the same core six (6) columns:
+
+-Start Time (e.g., 2017-01-01 00:07:57)
+-End Time (e.g., 2017-01-01 00:20:53)
+-Trip Duration (in seconds - e.g., 776)
+-Start Station (e.g., Broadway & Barry Ave)
+-End Station (e.g., Sedgwick St & North Ave)
+-User Type (Subscriber or Customer)
+
+The Chicago and New York City files also have the following two columns:
+
+-Gender
+-Birth Year
+
 
 ### Files used
 
